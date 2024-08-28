@@ -1,0 +1,92 @@
+@font-face {
+    font-family: Roboto;
+    src: url("../Assests/font/Roboto-Regular.ttf") format("truetype");
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: Roboto;
+    background-color: #030517;
+    color: #fff;
+}
+.container{
+    max-width: 80rem;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #191137;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    height: 27.8rem;
+}
+
+.article{
+    max-width: 27rem;
+    margin-top: 2.5rem;
+    margin-left: 5rem;
+    
+}
+.title{
+
+    font-family: Roboto ;
+    font-size: 42px;
+}
+
+.title-special-color{
+    color: #9327b0;
+}
+.text{
+    line-height: 1.6rem;
+    color: #B0BEC5 ;
+    margin-bottom: 3.5rem;
+}
+
+.statistisc{
+    display: flex;
+    flex-direction: column;
+}
+.statistisc-numbers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.statistisc-names{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #B0BEC5 ;
+    margin-bottom: 3rem;
+    margin-top: -1.5rem;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.picture{
+    height: 100%;
+    width: 35rem;
+    background-image: url("../Assests/image-header-desktop.jpg");
+    background-position: center;
+}
+
+.picture-color{
+    background-color: #9327b0;
+    height: 100%;
+    width: 35rem;
+    opacity: 0.4;
+}
